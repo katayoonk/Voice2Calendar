@@ -1,0 +1,4 @@
+# Ignore Jupyter Notebook Saves
+.ipynb_checkpoints
+voice.caf
+
