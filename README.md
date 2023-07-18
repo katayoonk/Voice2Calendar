@@ -20,10 +20,12 @@ Voice2Calendar is a Python-based solution designed to address a specific persona
 4. Run the Python script: `python voice2calendar.py`
 6. The script converts the audio file format to ensure compatibility and ease of processing.
 7. The voice message is transcribed into text using Whisper model.
-8. The OpenAI api changes uses the transcript to generates a structured to-do list.
-9. A calendar file in .ics format is automatically created based on the to-do list.
-10. The calendar file is attached to an email and sent to the specified email address for seamless integration into popular calendar applications.
-11. Open the email, download the calendar file, and import it into your preferred calendar application.
+8. Enter your openAI API key, when prompted.
+9. The OpenAI api changes uses the transcript to generates a structured to-do list.
+10. A calendar file in .ics format is automatically created based on the to-do list.
+11. Enter your preferred email address and its password.
+12. The calendar file is attached to an email and sent to the specified email address for seamless integration into popular calendar applications.
+13. Open the email, download the calendar file, and import it into your preferred calendar application.
 
 ## Contributing
 

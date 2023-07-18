@@ -58,7 +58,9 @@ for i, chunk in enumerate(audio_chunks):
         transcript += " " + transcriptChunk
         
 # make a to-do-list using gpt3
-os.environ["OPENAI_API_KEY"] = "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"
+# importing openai api key
+
+os.environ["OPENAI_API_KEY"] = input("enter your OpenAI API Key: ")
 
 # give gpt a prompt
 prompt = PromptTemplate(
@@ -87,9 +89,9 @@ with open('my.ics', 'w') as my_file:
     my_file.writelines(c.serialize_iter())
     
 #email the to-do list to myself
-email_sender = 'kaviany.katayoon@gmail.com'
-email_password = 'itzoqfuwhghauwpj'
-email_receiver = 'kaviany.katayoon@gmail.com'
+email_sender = input('enter your email address: ')
+email_password = input('enter your password: ')
+email_receiver = email_sender
 subject = "Today's To-do List"
 body = todolist
 em = EmailMessage()

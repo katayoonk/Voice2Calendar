@@ -1,0 +1,9 @@
+openai-whisper
+langchain
+pydub
+openai
+ffmpeg-python
+pyicloud
+ics
+email
+ssl
